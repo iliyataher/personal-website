@@ -1,0 +1,26 @@
+@font-face {
+    font-family: tanha;
+    src: url(/fonts/Tanha.ttf),
+         url(/fonts/Tanha.woff); /* IE9+ */
+    }
+
+*{
+     font-family:tanha;
+}
+
+
+    
+.text{
+     font-size: 30px;
+     color: green;
+}
+.formala{
+     list-style-type: none;
+}  
+
+.moshtari{
+     font-size: larger;
+}
+.textphon{
+     font: 20px;
+}
