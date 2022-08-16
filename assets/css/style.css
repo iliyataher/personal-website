@@ -8,8 +8,17 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+  font-family:tanha;
+  src: url(fonts/Tanha.ttf);
+}
+
+*{
+  font-family: tanha;
+}
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: tanha, sans-serif;
   color: #272829;
 }
 
@@ -212,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(/image/tn_WallpaperGram.IR_ws1588187526_36510.jpg) top right;
+  background: url(tn_WallpaperGram.IR_ws1588187526_36510.jpg) top right;
   background-size: cover;
 }
 
